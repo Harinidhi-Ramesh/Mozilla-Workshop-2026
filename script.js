@@ -4,6 +4,7 @@
 const CONTRIBUTORS = [
   "Mozilla", "CCOEW" , "Pune"
   // add your name below this line
+  // Vagmi Thakar
 ];
 
 //Open source flip cards
