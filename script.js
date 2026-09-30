@@ -5,6 +5,7 @@ const CONTRIBUTORS = [
 
   "Mozilla", "CCOEW" , "Pune", "Devshree Patil", "SAKSHI DALAVI", "Rajasee", "Shreya Bargal"
   // add your name below this line
+  // Vagmi Thakar
 ];
 
 //Open source flip cards
