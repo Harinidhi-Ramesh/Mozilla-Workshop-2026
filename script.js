@@ -4,6 +4,7 @@
 const CONTRIBUTORS = [
   "Mozilla", "CCOEW" , "Pune"
   // add your name below this line
+  ,"Aarohi"
 ];
 
 //Open source flip cards
