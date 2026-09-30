@@ -134,3 +134,6 @@ function frame() {
   if (bits.length) requestAnimationFrame(frame);
 }
 $("fox").addEventListener("click", () => boom());
+
+
+//Vagmi Thakar (Added changes)
