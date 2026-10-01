@@ -1,3 +1,4 @@
 # Contributors
 
-- Mozilla 
+- Mozilla
+- Ankita Singh

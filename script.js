@@ -4,6 +4,12 @@
 const CONTRIBUTORS = [
   "Mozilla", "CCOEW" , "Pune","Harsha"
   // add your name below this line
+const CONTRIBUTORS = [ 
+  "Mozilla", "CCOEW" , "Pune", "Devshree Patil", "SAKSHI DALAVI", "Rajasee", 
+  "Shreya Bargal", "Mansi patil", "Ananya Kulkarni",  "SOUMILI GHOSH", "Yugaa Deshmukh", "Sadhana", "Madhura Malpe",
+  "Iravati", "Ava", "Ananya Hiremath", "Gargi", "Shreya Pant", "Madhura Shinde", "Kaveri Patil", "Kirtigya singh",
+   "Tanvi Nikam", "EKTA KUNDNANI", "Siddhi Nilange", "Mahek Shah", "Anushka Shinde"
+// add your name below this line
 ];
 
 //Open source flip cards
@@ -35,7 +41,7 @@ function type() {
   if (ci < line.length) {
     out += line[ci++];
     term.textContent = out;
-    setTimeout(type, line.startsWith("$") ? 45 : 8);
+setTimeout(type, line.startsWith("$") ? 45 : 8);
   } else {
     out += "\n"; li++; ci = 0;
     term.textContent = out;
@@ -43,7 +49,6 @@ function type() {
   }
 }
 type();
-
 
 
 //Flip cards
@@ -56,7 +61,7 @@ FLIPS.forEach((f) => {
   b.addEventListener("click", () => b.classList.toggle("on"));
   $("flips").appendChild(b);
 });
-
+ 
 //Journey steps
 const STEPS = [
   { title: "Fork", sub: "Make your own copy of the repo" },
@@ -66,15 +71,15 @@ const STEPS = [
   { title: "Deploy", sub: "Put your site on the internet" },
 ];
 const saved = JSON.parse(localStorage.getItem("steps-done") || "[]");
-
+ 
 function updateProgress() {
-  const done = document.querySelectorAll(".step input:checked").length;
+ const done = document.querySelectorAll(".step input:checked").length;
   $("meter-fill").style.width = (done / STEPS.length) * 100 + "%";
   $("meter-label").textContent = done === STEPS.length
     ? "All done! You just shipped a website. 🎉" : done + " of " + STEPS.length + " done";
   return done;
 }
-
+ 
 STEPS.forEach((s, i) => {
   const el = document.createElement("label");
   el.className = "step" + (saved.includes(i) ? " done" : "");
@@ -93,7 +98,7 @@ STEPS.forEach((s, i) => {
   $("steps").appendChild(el);
 });
 updateProgress();
-
+ 
 //Contributor wall
 const fun = ["🦊", "🔥", "🚀", "✨", "💜", "🎉"];
 CONTRIBUTORS.forEach((name, i) => {
@@ -105,16 +110,16 @@ CONTRIBUTORS.forEach((name, i) => {
     c.textContent = fun[Math.floor(Math.random() * fun.length)] + " Hi " + name + "!";
     setTimeout(() => (c.textContent = name), 1500);
     boom(25);
-  });
+ });
   $("wall-list").appendChild(c);
 });
-
+ 
 //Scroll bar
 addEventListener("scroll", () => {
   const h = document.documentElement;
   $("scrollbar").style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100 + "%";
 });
-
+ 
 //Confetti
 const cv = $("confetti"), ctx = cv.getContext("2d");
 let bits = [];
