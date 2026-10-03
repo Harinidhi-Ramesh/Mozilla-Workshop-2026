@@ -5,9 +5,9 @@ const CONTRIBUTORS = [
   "Mozilla", "CCOEW" , "Pune", "Devshree Patil", "SAKSHI DALAVI", "Rajasee", 
   "Shreya Bargal", "Mansi patil", "Ananya Kulkarni",  "SOUMILI GHOSH", "Yugaa Deshmukh", "Sadhana", "Madhura Malpe",
   "Iravati", "Ava", "Ananya Hiremath", "Gargi", "Shreya Pant", "Madhura Shinde", "Kaveri Patil", "Kirtigya singh",
-   "Tanvi Nikam", "EKTA KUNDNANI", "Siddhi Nilange", "Mahek Shah", "Anushka Shinde", "Mrunmayee Mogarkar",
+  "Tanvi Nikam", "EKTA KUNDNANI", "Siddhi Nilange", "Mahek Shah", "Anushka Shinde", "Mrunmayee Mogarkar", "Arpita",
+  "Sakshi Ghanvat", "Aarohi", "Neha Suryawanshi", "Kshitija", "Vaidehi Gujar", "Purva Shirke",
 // add your name below this line
-"Purva Shirke",
 ];
 
 //Open source flip cards
