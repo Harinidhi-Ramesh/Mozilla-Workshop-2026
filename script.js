@@ -8,6 +8,7 @@ const CONTRIBUTORS = [
   "Tanvi Nikam", "EKTA KUNDNANI", "Siddhi Nilange", "Mahek Shah", "Anushka Shinde", "Mrunmayee Mogarkar", "Arpita",
   "Sakshi Ghanvat", "Aarohi", "Neha Suryawanshi", "Kshitija"
 // add your name below this line
+"Purva Shirke",
 ];
 
 //Open source flip cards
